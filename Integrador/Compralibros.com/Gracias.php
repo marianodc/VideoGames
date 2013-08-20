@@ -33,7 +33,7 @@ $_SESSION['importe'] = 0;
             <?php
             if(isset($_SESSION['logueado']))
                 { ?>
-              <li class="inf-reg" >&nbsp;&nbsp; Bienvenido: <?php echo $_SESSION['usuario'];  ?></li>
+              <li class="inf-reg" >&nbsp;&nbsp; welcome: <?php echo $_SESSION['usuario'];  ?></li>
               <li ><a href="logout.php" >&nbsp;&nbsp;Salir</a></li>   
             <?php } 
              else { ?>
