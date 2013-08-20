@@ -41,7 +41,7 @@ include('datos.php');
  </div><!--cierre de cabecera-->
 
   <div id="ubicacion">
-        Ubicacion dentro del sitio web:&nbsp;-&nbsp;Home&nbsp;-&nbsp;<span>Quienes somos</span>
+        //Ubicacion dentro del sitio web:&nbsp;-&nbsp;Home&nbsp;-&nbsp;<span>Quienes somos</span>
   </div><!--cierre de ubicacion-->
   
   <div id="contenedor" >
