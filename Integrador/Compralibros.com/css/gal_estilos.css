@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lateral-der{float:right;
+	margin:5px 5px auto 5px;
+	background:#FFF;
+	height:auto;
+	width:15em;
+	border:1px solid #999;
+	}
+.lateral-der h2{margin-left:5px;
+	color:#F90;
+	font-weight:bold;
+	border-bottom:1.5px dashed #F90;
+	}
+ 
+.boton{
+      background: black;
+      border: none;
+      color: #ffffff;
+      font: 13px Tahoma, Arial, sans-serif;
+      padding: 10px 15px;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid #333;
+      letter-spacing: 1px;
+      text-shadow: 0px -1px 0px #333333;
+     border-radius: 5px;
+     margin: 20px;
+}
+
+#cont-galeria {
+  width:550px;
+  margin:auto;
+  }
+ 
+ /*MENU LATERAL */
+#cat{
+  	width:13em;
+	height:auto;
+	margin:25px auto 25px auto;
+	border:1px dashed #999;
+	background-color:#e2e2e2;
+  }
+#cat ul{list-style:none;
+	height:auto;
+	width:auto;
+	margin:auto 30px auto -30px;
+	}
+#cat li {
+  list-style:none;
+  color:#CCC;
+  height:25px;
+  width:auto;
+  border:1px solid #CCC;
+  margin:2px auto auto -5px;
+  padding:5px;
+  }
+#cat li:hover{
+  background:#F90;
+  color:#FFF;
+  }
+ 
+#cat li a{text-decoration:none;
+	color:#000;
+	}
+	
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+ 
+#galeria {
+  padding:0;
+  list-style-type:none;
+  height:16.5em;
+  width:35.5em;
+  border:5px solid #F90;
+  }
+#galeria li {
+  width:50px;/**Modifica el tamaño de los items sin hover*/
+  height:16.5em;
+  float:left;
+  border-left:1px solid #DDD;
+  border-right:1px solid #DDD;
+  text-align:center;
+  position:relative;
+  }
+#galeria li img { visibility:hidden;
+}
+
+
+#galeria li:hover {
+  width:300px;/**Para modificar el tamaño de cada item al posicinar el mouse*/
+  }
+#galeria li:hover img {
+visibility:visible;
+  width:110px;
+  height:150px;
+  float:right;
+  margin:auto 3px auto auto;
+  position:absolute;
+  bottom:3px;
+  right:4px;
+  top:10px;
+  }
+
+
+.descripcion span{
+	color:#ABDA0C;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+#galeria li:hover .boton-carrito{
+	visibility:visible;
+	}
+#imagenes{float:right;
+	width:320px;
+	height:180px;
+	padding:3px;
+}
+
+.imagenderecha{float:right;
+	width:300px;
+	height:230px;
+	padding:5px;}
+
+.imagenizquierda{float:left;
+	width:300px;
+	height:230px;
+	padding:5px;}
+	
+.precio{color:#ABDA0C;
+	font-weight:bold;
+	font-size:14px;
+}
+
+#logueo{
+	margin:auto;
+	background:#FFF;
+	border:1px solid #ccc;
+	width:25em;
+	height:auto;
+	padding:20px;	
+	}
+
+#logueo table label{
+	color:#999;
+	font-weight:bold;
+}	
+
+#logueo table input:focus{
+	color:#000;
+	background:#FC3;
+}
+
+
+#cont-login{
+	padding:20px;
+	margin:auto;
+	background:#FFF;
+	width:51em;
+	height:auto;
+	border:solid 1px #999;
+	overflow:hidden;
+	}
+
+#cont-login p{
+	color:#000;
+	text-align:"justify";
+}
+
+#cont-login h4{
+	color:#ABDA0C;
+	text-align:center;
+}
+
+#cont-reg{
+	margin:auto;
+	border:1px solid #ccc;
+	width:400px;
+	height:auto;
+	background:#FFF;
+	padding: 20px;
+}
+
+.logout{
+	color:#FFF;
+	font-weight:bold;
+	}
+
+.link{
+	font-size:15px;
+	font-weight:400;
+	text-decoration:none;
+	color:#000;
+	text-decoration:underline;
+
+}
+
+.link:hover{
+	color: #F90;
+}
+

@@ -1,0 +1,322 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{	font-family: 'Helvetica', sans-serif;
+	font-size:14.5px;
+	}
+	
+body{ background-image: url(../imagenes/Texturas-fibra-de-carbono.png);
+	background-repeat: repeat;
+	width:100%;
+	height:100%;
+}
+ 		
+#contenedor{
+	padding:5px;
+	background:#FC6;
+	width:71em;
+	height:auto;
+	margin:12px auto auto auto;	
+	overflow:hidden;
+	}
+	
+#cabecera{	
+	width:71em;
+	height:15em;
+	text-align:center;
+	margin:auto;
+	background-image:url(../Imagenes/libros5.jpg);
+}
+#cabecera img{
+	height:170px;
+	width:250px;
+	margin:-10px auto 25px auto;
+}
+
+
+#vistos{
+	width:50em;
+	height:25em;
+	margin:1em 0.5em 1em auto;
+	}
+
+#vistos img{width:100px;
+	height:150px;
+	padding:5px;
+	}
+#vistos img:hover{width:120px;
+	height:170px;
+	}
+	
+	
+.descripcion{visibility:hidden;
+	font-size:13px;
+	text-align:left;
+	width:150px;
+	height:auto;
+	border:1px solid #ccc ;
+	float:left;
+	padding:5px;
+	margin:30px auto 3px auto;
+	color:#999;
+}
+#galeria li:hover .descripcion{visibility:visible;/*La descripcion va estar oculta mientras no se 
+ posicione el mouse sobre el elemento de la lista */	
+text-align:left;
+}
+	
+
+
+.nav{
+	margin:8em auto 2em auto;
+	width:67em;
+	height:3em;
+	background:#000;
+	border-right:3px solid #999;
+	border-bottom:3px solid #999;
+	border-left:1px solid #999;
+	position:absolute;
+}
+
+.nav ul{padding:12px; position: relative; bottom:15px; }
+
+.nav li{
+	list-style:none;
+	display: inline;
+	padding:7px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:15px;
+
+	}
+.inf-reg{
+	margin-left:50px;
+	text-size:16px;
+	}
+
+.nav li a {
+	color:#FC0;
+	text-decoration:none; 
+	padding:14px;	
+}
+
+.nav li a:hover { 
+	background:#FC0;
+	color: #000;
+	/*padding-bottom:12px;*/ 
+}
+
+
+#nav-sup{
+	width:auto;
+	height:30px;
+	font-size:18px;
+	text-align:center;
+	font-size:13px;
+	}
+#nav-sup a{ text-decoration:none;
+	padding:0.5em;
+	color:#FFF;
+	background:#000;
+	font-weight:bold;
+	}
+
+#nav-sup a:hover{text-decoration:underline;}
+
+
+
+#buscador form {
+	border:1px solid #999999;
+	background:#ccc;
+	padding:10px;
+	width:230px;
+	position:relative;
+	margin:auto;
+}
+
+/* Campo de texto */
+
+.searchtext {
+	margin:auto;
+	padding:2px 5px;
+	color:#999;
+	font-size:15px;
+	line-height:15px;
+	height:25px;
+	width:180px;
+	border:2px solid #999;
+}
+
+/* Botón de submit */
+
+.searchsubmit{
+	background:#FC6;
+	width:120px;
+	height:30px;
+	color:#000;
+	margin:10px auto auto auto;
+	font-weight:bold;
+	border: 1px #F90 solid;
+}
+
+
+
+#contenido{
+	padding:20px;
+	margin:auto;
+	background:#FFF;
+	width:51em;
+	height:auto;
+	border:solid 1px #999;
+	margin:5px auto 5px 5px;
+	overflow:hidden;
+	}
+
+/*Para los parrafos del contenido*/	
+#contenido p{
+	color:#000;
+	text-align:left;
+	letter-spacing:normal;
+	font-size:14px;	
+	margin-left:10px;
+	margin-right:10px;
+	padding:5px;
+}
+	
+	/** Para resaltar las imagenes*/
+/*#contenido img:hover{width:120px;
+	height:170px;
+	border:#090 double 2px;
+	}*/
+	
+#pie{
+	color:#FFF;
+	width:67em;
+	height:5em;
+	text-align:center;
+	margin:1em auto auto auto;
+	}
+
+/*#contenedor-menu{background:#F1F1F1;
+	widht:auto;
+	height:auto;
+	float:right;
+	}
+*/
+	
+
+/*MENU LATERAL */
+#carrito{
+  	width:13em;
+	height:auto;
+	margin:5px auto 5px auto;
+	border:1px dashed #999;
+	background-color:#e2e2e2;
+}
+/*MENU LATERAL */		
+
+#novedades{width:auto;
+	height:auto;
+	position:relative;
+}
+
+.novedad{width:120px;
+	height:200px;
+	border:1px dotted #ABDA0C;
+	}
+
+.novedad img{width:120px;
+	height:200px;
+	}
+.novedad:hover{width:600px;
+	height:200px;
+	border:1px dotted #ABDA0C;
+	background:#EBEBEB;
+	}
+.novedad:hover #boton-carrito{visibility:visible;}
+
+.novedad:hover img{float:left;
+	position:absolute;
+	margin-left:3px;
+	}
+.novedad p{visibility:hidden;
+	text-align:center;
+	margin:5px 5px 5px 5px;
+	font-size:16px;
+	margin:auto;
+	position:absolute;
+	left:150px;
+}
+
+.novedad:hover p{visibility:visible;}
+
+
+	
+/**>>>>>>>>>>>>>>>Clases<<<<<<<<<<<<<<<<<<<*/
+
+
+.titulos{
+	font-size:18px;
+	text-align:left;
+	color:#F90;
+	border-bottom: dashed 0.1em #F90;
+	width:auto;
+	font-weight:bold;
+	padding:2px;
+	margin-top:2em;
+}
+
+
+.menu-lat ul {
+	list-style: square;
+	margin-left:-5px;
+	font-weight:bold;
+	margin-bottom:2px;
+	border-bottom: 1px solid #E0E0E0;
+	margin:auto;
+	}
+	
+.menu-lat ul li{padding:7px;
+	border:1px #CCC;}
+
+.menu-lat ul a{ text-decoration:none;
+	color:#06F; 
+	}
+
+#ubicacion{
+	width:70%;
+	height:20px;
+	color:#FFF;
+	margin:7px auto auto auto;
+	font-weight:bold;
+	text-align:center;
+	}
+#ubicacion span{color:#F90;
+	}
+
+#recomendado{width:13em;
+	height:auto;
+	margin:3px auto 3px auto;
+	border:1px dashed #999;
+	background-color:#e2e2e2;
+	}
+
+#recomendado img {width:100px;
+	height:150px;
+	margin:auto 3px 3px 50px;
+}
+
+#recomendado .descripcion{visibility:visible;}
+
+#contacto{width:71.7em;
+	height:180px;
+	background:#000;
+	margin:-10px auto auto auto;
+	
+}
+
+#contacto p{color:#FFF;
+	font-size:16px;
+	margin:10px auto auto  10px;
+	padding:10px;
+}
